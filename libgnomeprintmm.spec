@@ -1,15 +1,15 @@
 Summary:	C++ wrappers for libgnomeprint
 Summary(pl):	Interfejsy C++ dla libgnomeprint
 Name:		libgnomeprintmm
-Version:	2.5.0
-Release:	8
+Version:	2.5.1
+Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/gnome/sources/%{name}/2.5/%{name}-%{version}.tar.bz2
-# Source0-md5:	61db9f654329c01a0d1f7454eaab7864
+# Source0-md5:	cac1729ff8708bec30be4291b73530bc
 URL:		http://www.gnome.org/
-BuildRequires:	gtkmm-pango-devel >= 2.3.8
-BuildRequires:	libgnomeprint-devel >= 2.6.0
+BuildRequires:	gtkmm-pango-devel >= 2.4.1
+BuildRequires:	libgnomeprint-devel >= 2.6.1
 BuildRequires:	perl-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,7 +24,7 @@ Summary:	Devel files for libgnomeprintmm
 Summary(pl):	Pliki nag³ówkowe dla libgnomeprintmm
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	gtkmm-pango-devel >= 2.3.8
+Requires:	gtkmm-pango-devel >= 2.4.1
 
 %description devel
 Devel files for libgnomeprintmm.
