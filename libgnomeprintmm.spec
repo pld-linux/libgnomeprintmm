@@ -1,5 +1,5 @@
 Summary:	C++ wrappers for libgnomeprint
-Summary(pl):	Interfejsy C++ dla libgnomeprint
+Summary(pl.UTF-8):   Interfejsy C++ dla libgnomeprint
 Name:		libgnomeprintmm
 Version:	2.5.1
 Release:	1
@@ -16,12 +16,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 C++ wrappers for libgnomeprint.
 
-%description -l pl
+%description -l pl.UTF-8
 Interfejsy C++ dla libgnomeprint.
 
 %package devel
 Summary:	Devel files for libgnomeprintmm
-Summary(pl):	Pliki nag≥Ûwkowe dla libgnomeprintmm
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe dla libgnomeprintmm
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gtkmm-pango-devel >= 2.4.1
@@ -29,19 +29,19 @@ Requires:	gtkmm-pango-devel >= 2.4.1
 %description devel
 Devel files for libgnomeprintmm.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe dla libgnomeprintmm.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe dla libgnomeprintmm.
 
 %package static
 Summary:	libgnomeprintmm static library
-Summary(pl):	Biblioteka statyczna libgnomeprintmm
+Summary(pl.UTF-8):   Biblioteka statyczna libgnomeprintmm
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 libgnomeprintmm static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Biblioteka statyczna libgnomeprintmm.
 
 %prep
