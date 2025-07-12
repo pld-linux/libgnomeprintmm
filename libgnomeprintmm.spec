@@ -2,7 +2,7 @@ Summary:	C++ wrappers for libgnomeprint
 Summary(pl.UTF-8):	Interfejsy C++ dla libgnomeprint
 Name:		libgnomeprintmm
 Version:	2.5.1
-Release:	4
+Release:	5
 License:	LGPL v2+
 Group:		X11/Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/libgnomeprintmm/2.5/%{name}-%{version}.tar.bz2
